@@ -5,7 +5,7 @@ This site showcases a collection of my projects, hands-on experience, and techni
 
 🌐 Live Portfolio
 
-➡️ https://yourusername.github.io/portfolio
+➡️ https://mattjordan04459.github.io/portfolio
 
 | Project                                         | Description                                                                                                    | Technologies                                  |
 | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
