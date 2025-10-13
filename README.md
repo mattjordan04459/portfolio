@@ -5,7 +5,13 @@ Welcome! This portfolio highlights my **Azure**, **PowerShell**, and **Cloud Aut
 ---
 
 ## 🌐 Live Portfolio
-[Visit My Portfolio Website](https://matthewjordan.github.io/portfolio)
+[Visit My Portfolio Website](https://mattjordan04459.github.io/portfolio)
+
+---
+
+## 🏆 Certifications
+![AZ-104](https://img.shields.io/badge/AZ--104-Microsoft%20Azure-blue) 
+![Security+](https://img.shields.io/badge/Security%2B-CompTIA-red)
 
 ---
 
@@ -26,10 +32,9 @@ Welcome! This portfolio highlights my **Azure**, **PowerShell**, and **Cloud Aut
 ---
 
 ## ⚙️ Technical Skills
-Azure | PowerShell | GitHub | Azure DevOps | Windows Server | Hyper-V | Automation
+**Cloud:** Azure | **Scripting:** PowerShell, Bash | **DevOps Tools:** GitHub, Azure DevOps, Nexus, Chocolatey | **Systems:** Windows Server, Hyper-V, Intune
 
 ---
 
 ## 📬 Contact
-- [LinkedIn](https://linkedin.com/in/matthewjordan)  
-- [Email](mailto:matthew.jordan@example.com)
+[LinkedIn](https://www.linkedin.com/in/matthew-jordan-702964221/) | [Email](mailto:mattjordan04459@gmail.com)
