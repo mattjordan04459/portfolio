@@ -1,36 +1,35 @@
-🧑‍💻 Matthew Jordan — Cloud Systems Administrator Portfolio
+# 👋 Matthew Jordan — Cloud Systems Administrator
 
-Welcome to my professional portfolio!
-This site showcases a collection of my projects, hands-on experience, and technical skills in Azure, PowerShell automation, infrastructure management, and DevOps practices.
+Welcome! This portfolio highlights my **Azure**, **PowerShell**, and **Cloud Automation** projects.
 
-🌐 Live Portfolio
+---
 
-➡️ https://mattjordan04459.github.io/portfolio
+## 🌐 Live Portfolio
+[Visit My Portfolio Website](https://matthewjordan.github.io/portfolio)
 
-| Project                                         | Description                                                                                                    | Technologies                                  |
-| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| **Azure Automation & Monitoring Setup**         | Built automation runbooks and alert workflows for resource monitoring, patching, and security event responses. | Azure Automation, Log Analytics, PowerShell   |
-| **Nexus & Chocolatey Server Configuration**     | Designed and deployed a private Chocolatey repository hosted on Nexus, with SSL and authentication.            | Nexus, Chocolatey, IIS, Certificates          |
-| **PowerShell Scripts for AD & M365 Management** | Created scripts for user provisioning, mailbox cleanup, and backup reports.                                    | PowerShell, Exchange Online, Active Directory |
+---
 
+## 🧱 Featured Projects
 
-Technical Skills
+**Azure Automation & Monitoring Setup**  
+*Automated daily backup reports, alerts, and resource monitoring.*  
+**Tech:** Azure Automation, Log Analytics, PowerShell
 
-Cloud: Microsoft Azure (VMs, Networking, Automation, Recovery Services Vault)
+**Nexus & Chocolatey Server Configuration**  
+*Deployed a private Chocolatey repository with SSL and authentication.*  
+**Tech:** Nexus, Chocolatey, IIS, Certificates
 
-Scripting: PowerShell, Bash
+**PowerShell Scripts for AD & M365**  
+*Scripts for user provisioning, mailbox cleanup, and backup reports.*  
+**Tech:** PowerShell, Exchange Online, Active Directory
 
-DevOps Tools: GitHub, Azure DevOps, Nexus, Chocolatey
+---
 
-Systems: Windows Server, Hyper-V, Intune
+## ⚙️ Technical Skills
+Azure | PowerShell | GitHub | Azure DevOps | Windows Server | Hyper-V | Automation
 
-📈 Goals
+---
 
-Currently focused on advancing in cloud security and infrastructure automation.
-Next certifications: SC-200 and AZ-500.
-
-📬 Contact
-
-LinkedIn: https://www.linkedin.com/in/matthew-jordan-702964221/
-
-Email: mattjordan04459@gmail.com
+## 📬 Contact
+- [LinkedIn](https://linkedin.com/in/matthewjordan)  
+- [Email](mailto:matthew.jordan@example.com)
