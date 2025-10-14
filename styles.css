@@ -114,40 +114,21 @@ section h2::after {
 }
 
 .project-card {
+  display: block;
   background: #ffffff;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid #ddd;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  text-decoration: none;
+  color: inherit;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-.project-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-
-.project-img {
-  display: block;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  max-width: 100%;
-  height: auto;
-  max-height: 400px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
-}
-
-.project-img:hover {
-  transform: scale(1.05);
+  background: #e6f4ff;
 }
 
 .project-card h3 {
@@ -210,16 +191,12 @@ footer {
 
 /* -------------------- Responsive -------------------- */
 @media (max-width: 768px) {
-  .project-images {
-    flex-direction: column;
+  .project-grid {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 600px) {
-  .project-img {
-    max-height: 250px;
-  }
-
   header h1 {
     font-size: 2rem;
   }
