@@ -38,7 +38,6 @@ header p {
   color: #666;
 }
 
-/* Header Links */
 .header-links {
   margin-top: 1rem;
 }
@@ -54,12 +53,36 @@ header p {
   text-decoration: underline;
 }
 
-/* -------------------- Sections -------------------- */
+/* -------------------- Sections & Callout -------------------- */
 section {
   padding: 3rem 0;
-  background-color: #fafafa;
 }
 
+#about {
+  background: #f0f4f8;
+}
+
+#projects {
+  background: #ffffff;
+}
+
+#skills {
+  background: #eef6fc;
+}
+
+#goals {
+  background: #f5f5f5;
+}
+
+.callout {
+  padding: 1.5rem;
+  background: #e1f0ff;
+  border-left: 5px solid #007bff;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+}
+
+/* Section Headings */
 section h2 {
   font-size: 2.2rem;
   margin-bottom: 1.5rem;
@@ -77,20 +100,25 @@ section h2::after {
   border-radius: 2px;
 }
 
-/* -------------------- Projects -------------------- */
+/* -------------------- Projects Grid -------------------- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
 .project-card {
-  margin-bottom: 2.5rem;
-  padding: 1.5rem;
   background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
   border: 1px solid #ddd;
-  border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
 .project-images {
@@ -139,7 +167,7 @@ section h2::after {
   color: #555;
 }
 
-/* -------------------- Certifications Badges -------------------- */
+/* Certifications Badges */
 .cert-badges img {
   margin: 0.5rem;
   height: 30px;
