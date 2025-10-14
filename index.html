@@ -4,17 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matthew Jordan | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <!-- Header / Hero Section -->
   <header>
     <div class="container">
       <img src="assets/profile.jpg" alt="Matthew Jordan" class="profile-img">
       <h1>Matthew Jordan</h1>
       <p>Azure SysAdmin | Cloud & Cybersecurity Enthusiast</p>
-      <a href="https://www.linkedin.com/in/matthew-jordan-702964221/" target="_blank">LinkedIn</a> | 
-      <a href="mailto:mattjordan04459@gmail.com">Email</a>
+      <nav class="header-links">
+        <a href="https://www.linkedin.com/in/matthew-jordan-702964221/" target="_blank">LinkedIn</a> | 
+        <a href="mailto:mattjordan04459@gmail.com">Email</a>
+      </nav>
     </div>
   </header>
 
@@ -22,49 +26,54 @@
   <section id="certifications">
     <div class="container">
       <h2>Certifications</h2>
-      <img src="https://img.shields.io/badge/AZ--104-Microsoft%20Azure-blue" alt="AZ-104">
-      <img src="https://img.shields.io/badge/Security%2B-CompTIA-red" alt="Security+">
+      <div class="cert-badges">
+        <img src="https://img.shields.io/badge/AZ--104-Microsoft%20Azure-blue" alt="AZ-104">
+        <img src="https://img.shields.io/badge/Security%2B-CompTIA-red" alt="Security+">
+      </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="container">
-  <h2>Featured Projects</h2>
+  <section id="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
 
-  <div class="project">
-    <img src="assets/Azure recovery vaults backup.png" alt="Azure recovery vaults backup" class="project-img">
-    <img src="assets/RV email report.png" alt="RV email report" class="project-img">
-    <h3>Azure Backup & Recovery Automation</h3>
-    <p>Automated daily backup reports and recovery tests for Azure VMs and Recovery Services Vault.</p>
-    <p class="tech"><strong>Technologies:</strong> Azure Recovery Services, PowerShell, Log Analytics</p>
-  </div>
+      <div class="project-card">
+        <div class="project-images">
+          <img src="assets/Azure recovery vaults backup.png" alt="Azure Recovery Vaults Backup" class="project-img">
+          <img src="assets/RV email report.png" alt="RV Email Report" class="project-img">
+        </div>
+        <h3>Azure Backup & Recovery Automation</h3>
+        <p>Automated daily backup reports and recovery tests for Azure VMs and Recovery Services Vault.</p>
+        <p class="tech"><strong>Technologies:</strong> Azure Recovery Services, PowerShell, Log Analytics</p>
+      </div>
 
-  <div class="project">
-    <img src="assets/Public IP alerts.png" alt="Public IP alerts" class="project-img">
-    <h3>Azure Security Monitoring & Alerts</h3>
-    <p>Setup Security alerts for public IP creation in Azure.</p>
-    <p class="tech"><strong>Technologies:</strong> Azure Monitor, Azure Alerts, Splunk</p>
-  </div>
+      <div class="project-card">
+        <img src="assets/Public IP alerts.png" alt="Public IP Alerts" class="project-img">
+        <h3>Azure Security Monitoring & Alerts</h3>
+        <p>Setup Security alerts for public IP creation in Azure.</p>
+        <p class="tech"><strong>Technologies:</strong> Azure Monitor, Azure Alerts, Splunk</p>
+      </div>
 
-  <div class="project">
+      <div class="project-card">
         <h3>M365 Mailbox & User Management Scripts</h3>
         <p>Scripts for user provisioning, mailbox cleanup, auto-forward rules, and auditing.</p>
-        <p><strong>Tech:</strong> PowerShell, Exchange Online, Microsoft Graph API</p>
-  </div>
+        <p class="tech"><strong>Technologies:</strong> PowerShell, Exchange Online, Microsoft Graph API</p>
+      </div>
 
-  <div class="project">
+      <div class="project-card">
         <h3>On-Prem Server Maintenance Automation</h3>
         <p>Automated patching, monitoring, and reporting for Windows Server VMs in a hybrid environment.</p>
-        <p><strong>Tech:</strong> PowerShell, Hyper-V, Windows Server</p>
-  </div>
+        <p class="tech"><strong>Technologies:</strong> PowerShell, Hyper-V, Windows Server</p>
+      </div>
 
-  <div class="project">
+      <div class="project-card">
         <h3>Hybrid Network & Firewall Management</h3>
         <p>Configured VPNs, VNET peering, and firewall rules to secure connectivity between on-prem and Azure.</p>
-        <p><strong>Tech:</strong> Azure Networking, FortiGate, VPN, PowerShell</p>
-  </div>
+        <p class="tech"><strong>Technologies:</strong> Azure Networking, FortiGate, VPN, PowerShell</p>
+      </div>
 
-  </div>
+    </div>
   </section>
 
   <!-- Skills Section -->
@@ -102,16 +111,6 @@
       <p>&copy; 2025 Matthew Jordan</p>
     </div>
   </footer>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
