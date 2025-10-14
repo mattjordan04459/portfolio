@@ -38,6 +38,22 @@ header p {
   color: #666;
 }
 
+/* Header Links */
+.header-links {
+  margin-top: 1rem;
+}
+
+.header-links a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+}
+
 /* -------------------- Sections -------------------- */
 section {
   padding: 3rem 0;
@@ -62,18 +78,31 @@ section h2::after {
 }
 
 /* -------------------- Projects -------------------- */
-.project {
+.project-card {
   margin-bottom: 2.5rem;
   padding: 1.5rem;
   background: #ffffff;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project-img {
   display: block;
-  margin: 1rem auto;
   border: 1px solid #ccc;
   border-radius: 5px;
   max-width: 100%;
@@ -83,33 +112,37 @@ section h2::after {
   transition: transform 0.3s ease;
 }
 
-/* Hover zoom effect */
 .project-img:hover {
   transform: scale(1.05);
 }
 
-.project h3 {
+.project-card h3 {
   font-size: 1.7rem;
   margin-bottom: 0.7rem;
   color: #007bff;
   transition: color 0.3s ease;
 }
 
-/* Hover title color */
-.project h3:hover {
+.project-card h3:hover {
   color: #0056b3;
   cursor: pointer;
 }
 
-.project p {
+.project-card p {
   font-size: 1rem;
   margin-bottom: 0.7rem;
 }
 
-.project .tech {
+.project-card .tech {
   font-style: italic;
   font-size: 0.95rem;
   color: #555;
+}
+
+/* -------------------- Certifications Badges -------------------- */
+.cert-badges img {
+  margin: 0.5rem;
+  height: 30px;
 }
 
 /* -------------------- Contact -------------------- */
@@ -133,6 +166,12 @@ footer {
 }
 
 /* -------------------- Responsive -------------------- */
+@media (max-width: 768px) {
+  .project-images {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 600px) {
   .project-img {
     max-height: 250px;
@@ -146,7 +185,13 @@ footer {
     font-size: 1.8rem;
   }
 
-  .project h3 {
+  .project-card h3 {
     font-size: 1.4rem;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
