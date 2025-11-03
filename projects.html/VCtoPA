@@ -24,8 +24,8 @@
   <!-- Project Header -->
   <header>
     <div class="container hero">
-      <h1>Project Title</h1>
-      <p class="tech"><strong>Technologies:</strong> Azure Recovery Services, PowerShell, Log Analytics</p>
+      <h1>Automation Job Transfer to PA</h1>
+      <p class="tech"><strong>Technologies:</strong> Visual Cron, Power Automate, Powershell</p>
     </div>
   </header>
 
@@ -34,17 +34,17 @@
     <div class="container">
       <h2>Overview</h2>
       <p>
-        Detailed description of the project, including objectives, challenges faced, and solutions implemented.
+        We were faced with either renewing our license with Visual Cron or finding another solution for our automation jobs. Visual Cron became expensive so the business decided to go another route and get Power Automate. I was tasked with migrating these jobs from Visual Cron to Power Automate.
       </p>
       <h2>Key Features</h2>
       <ul>
-        <li>Automated daily backup reports</li>
-        <li>Integrated recovery tests for Azure VMs</li>
-        <li>Utilized Azure Recovery Services Vault for enhanced data protection</li>
+        <li>Disable jobs in Visual Cron after successful test in Power Automate</li>
+        <li>Create jobs from scratch in Power Automate with Powershell and their features</li>
+        <li>Troubleshoot issues in Power Automate when a job did not run successful</li>
       </ul>
       <h2>Outcome</h2>
       <p>
-        The project successfully streamlined backup processes, reduced manual intervention, and improved data recovery times.
+        The project was successful as all jobs have been migrated off of Power automate and we no longer use Visual cron. All jobs now are monitored via email alerts and splunk alerts. 
       </p>
     </div>
   </section>
@@ -58,3 +58,4 @@
 
 </body>
 </html>
+
