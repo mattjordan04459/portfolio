@@ -27,21 +27,17 @@ Welcome! This portfolio highlights my **Azure**, **PowerShell**, and **Cloud Aut
 *Automated daily backup reports and recovery tests for Azure VMs and Recovery Services Vault. Used Druva for Exchange, OneDrive, and On-Prem server backups*  
 **Tech:** Azure Recovery Services, PowerShell, Log Analytics, Druva
 
-**Azure Security Monitoring & Alerts**  
-*Implemented automated security alerts and compliance checks across Azure subscriptions.*  
-**Tech:** Azure Security Center, Sentinel, Logic Apps
-
-**M365 Mailbox & User Management Scripts**  
-*Scripts for user provisioning, mailbox cleanup, auto-forward rules, and auditing.*  
-**Tech:** PowerShell, Exchange Online, Microsoft Graph API
+**AWS to Azure migration**  
+*Decom of AWS tenant and move workspaces to Azure by creating all new Azure VDI machines.*  
+**Tech:** AWS, Azure, VDI, Networking
 
 **On-Prem Server Maintenance Automation**  
 *Automated patching, monitoring, and reporting for Windows Server VMs in a hybrid environment via Ninja.*  
 **Tech:** PowerShell, Hyper-V, Windows Server, Ninja
 
-**Hybrid Network & Firewall Management**  
-*Configured VPNs, VNET peering, and firewall rules to secure connectivity between on-prem and Azure.*  
-**Tech:** Azure Networking, FortiGate, VPN, PowerShell
+**Automation Job Transfer to PA**  
+*Migrated automation jobs from Visual Cron to Power Automate.*  
+**Tech:** Visual Cron, Power Automate
 
 ---
 
